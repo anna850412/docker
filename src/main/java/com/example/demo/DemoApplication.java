@@ -13,7 +13,7 @@ public class DemoApplication {
 	private String user;
 	@GetMapping
 	public String get() {
-		return "Siema: " + user;
+		return "Siema1: " + user;
 	}
 
 	public static void main(String[] args) {
